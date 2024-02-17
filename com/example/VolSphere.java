@@ -22,7 +22,6 @@ public final class VolSphere {
    *
    * @param args Unused
    */
-
   public static void main(final String[] args) {
     // Declaring Volume Radius Pi Decimal shift and fraction variables.
     double volume, radius, pi = StrictMath.PI;
@@ -45,11 +44,11 @@ public final class VolSphere {
         double volumeRounded = (Math.round(volume * decimalShift)) / decimalShift;
         // Output Volume to Console.
         System.out.println("Your Volume is: " + volumeRounded + " (Units Cubed) (U^3)");
-    } else {
+      } else {
         // If Number is not positive.
         System.out.println("Must be positive");
-    }
-    // Any/all exceptions.
+      }
+      // Any/all exceptions.
     } catch (Exception e) {
       // Output any error message.
       System.out.println("Error " + e.getMessage());
